@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="quiz_tableModelStoreContainer" CdmEntityContainer="quiz_tableEntities">
+    <EntitySetMapping Name="onlinequizs">
+      <EntityTypeMapping TypeName="quiz_tableModel.onlinequiz">
+        <MappingFragment StoreEntitySet="onlinequiz">
+          <ScalarProperty Name="QId" ColumnName="QId" />
+          <ScalarProperty Name="Question" ColumnName="Question" />
+          <ScalarProperty Name="Option1" ColumnName="Option1" />
+          <ScalarProperty Name="Option2" ColumnName="Option2" />
+          <ScalarProperty Name="Option3" ColumnName="Option3" />
+          <ScalarProperty Name="Option4" ColumnName="Option4" />
+          <ScalarProperty Name="Correctans" ColumnName="Correctans" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
